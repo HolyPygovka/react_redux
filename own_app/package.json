@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Roman",
@@ -17,6 +18,7 @@
     "@babel/plugin-transform-template-literals": "^7.7.4",
     "@babel/preset-env": "^7.7.6",
     "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
   },
